@@ -11,9 +11,9 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
 body {
     background-color: #3ADE56;
 }
-header, .book, .join {
+header, .book, .join, #background, footer {
     background-color: #62F54C;
 }
-#background, footer {
+nav a:hover, .book:hover, .join:hover {
     background-color: #DBFA41;
 }
