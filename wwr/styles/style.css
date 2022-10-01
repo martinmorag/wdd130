@@ -8,3 +8,12 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
 #background {
     height: 725px;
 }
+body {
+    background-color: #3ADE56;
+}
+header, .book, .join {
+    background-color: #62F54C;
+}
+#background, footer {
+    background-color: #DBFA41;
+}
