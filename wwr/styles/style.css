@@ -20,3 +20,6 @@ nav a:hover, .book:hover, .join:hover {
 nav a, .home-title, h4, .book, .join, .msg h2, .msg p, footer h3, footer a {
     color: #3A3956;
 }
+nav a:hover, .book:hover, .join:hover, footer a:hover {
+    color: #FA7F41;
+}
