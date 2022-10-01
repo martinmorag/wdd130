@@ -17,3 +17,6 @@ header, .book, .join, #background, footer {
 nav a:hover, .book:hover, .join:hover {
     background-color: #DBFA41;
 }
+nav a, .home-title, h4, .book, .join, .msg h2, .msg p, footer h3, footer a {
+    color: #3A3956;
+}
