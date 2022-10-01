@@ -24,3 +24,6 @@ nav a, .home-title, h4, .book, .join, .msg h2, .msg p, footer h3, footer a {
 footer a:hover {
     color: #FA7F41;
 }
+.icon {
+    width: 80px;
+}
