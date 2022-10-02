@@ -30,3 +30,9 @@ footer a:hover {
 #hero-img {
     width: 100%;
 }
+nav a, .book, .join, footer a {
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}
