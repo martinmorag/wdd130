@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Roboto+Condensed&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -38,4 +40,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.home-title, .msg h2 {
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
 }
