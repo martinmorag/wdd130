@@ -99,7 +99,7 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
-h1, h4 {
+.home-title, h4 {
     color: #d9c2a3;
 }
 
