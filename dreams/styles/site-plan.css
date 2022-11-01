@@ -5,8 +5,8 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #EBDC94   ;
-  --secondary-color: #D4CE7B ;
+  --primary-color: #EBDC94;
+  --secondary-color: #D4CE7B;
   --accent1-color: #E9F58E;
   --accent2-color: #F5CF8E;
 
@@ -19,8 +19,8 @@ Fonts are separated by a | */
   --headline-color-on-color: #EBDC94; /* headlines on a colored background */ 
   --paragraph-color-on-white: #D4CE7B; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #EBDC94; /* paragraph text on a colored background */ 
-  --paragraph-background-color: white  ;
-  --nav-link-color: black;
+  --paragraph-background-color: #EBDC94;
+  --nav-link-color: #F5CF8E;
   --nav-background-color: #E9F58E;
   --nav-hover-link-color: #EBDC94;
   --nav-hover-background-color: #D4CE7B;
