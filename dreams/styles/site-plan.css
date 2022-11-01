@@ -15,10 +15,10 @@ Fonts are separated by a | */
   --paragraph-font: Volkhov, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: black; /* headlines on a colored background */ 
+  --headline-color-on-white: #D4BC7B;  /* headlines on a white background */ 
+  --headline-color-on-color: #D4BC7B; /* headlines on a colored background */ 
   --paragraph-color-on-white: #D4BC7B; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #EBDC94; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
   --paragraph-background-color: #EBDC94;
   --nav-link-color: #F5CF8E;
   --nav-background-color: #E9F58E;
