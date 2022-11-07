@@ -187,7 +187,7 @@ nav {
 /* Mid grid */
 
 .texts {
-    grid-template-columns: 1f 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     text-align: center;
     margin-top: 4em;
