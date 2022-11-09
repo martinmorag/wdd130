@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: #3ADE56;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+header, footer {
+    background-color: #62F54C;
+}
+nav a:hover {
+    background-color: #DBFA41;
+    color: #FA7F41;
+}
+nav a, footer h3, footer a {
+    color: #3A3956;
+}
+footer a:hover {
+    color: #FA7F41;
+}
+nav a, footer a {
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+nav a {
+    padding: 35px;
+}
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
+footer {
+    margin: 0;
+}
+/* Header grid */
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ /* Form Grid */
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: "Roboto Condensed";
+    width: 100%;
+    background-color: #d9c2a3;
+}
+.sub_form {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 7em;
+}
+.button {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+ /* feedback */
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
