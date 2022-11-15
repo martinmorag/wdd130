@@ -82,14 +82,15 @@ footer {
 }
 .facebook_link {
   grid-row: 1/2;
-  justify-self: end;
 }
 .instagram_link {
   grid-row: 2/3;
-  justify-self: end;
 }
 .twitter_link {
   grid-row: 3/4;
+}
+
+.facebook_link, .instagram_link, .twitter_link {
   justify-self: end;
 }
 
