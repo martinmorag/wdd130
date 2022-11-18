@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@300&display=swap');
+/* Body adjustments */
+
+body {
+  background-color: #F4ECE0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Nav Grid*/
+
+header {
+  display: grid;
+  grid-template-columns: 125px 1fr;
+  height: 60px;
+}
+.logo_img {
+  align-items: center;
+}
+nav {
+  display:grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.home_link {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+.samples_link {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+.contact_me_link {
+  grid-column: 6/7;
+  grid-row: 2/3;
+}
+/* Header adjustments */
+.logo_img {
+  width: 125px;
+}
+nav {
+  font-family: poppins;
+  font-size: 18px;
+  background-color: #3C6E71;
+  
+}
+nav a {
+  color: #F4ECE0;
+}
+
+/* Removing underline from hyperlink */
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+
+/* Footer Grid */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.site_plan_link {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+.social_media {
+    grid-column: 6/7;
+    grid-row: 1/4;
+}
+  
+/* Social media grid */
+  
+.social_media {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.facebook_link {
+    grid-row: 1/2;
+}
+  .instagram_link {
+    grid-row: 2/3;
+}
+.twitter_link {
+    grid-row: 3/4;
+}
+  
+.facebook_link, .instagram_link, .twitter_link {
+    justify-self: end;
+}
+  
+/* Site Plan link */
+  
+.site_plan_link {
+    color: #3C6E71;
+    font-family: "Poppins";
+    font-size: 20px;
+}
