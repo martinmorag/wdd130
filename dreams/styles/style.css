@@ -208,6 +208,7 @@ hr {
   margin-right: 7em;
   margin-left: 7em;
   z-index: 2;
+  border-radius: 3%;
 }
 .flower1 {
   justify-self: center;
