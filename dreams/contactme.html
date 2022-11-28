@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="styles/contactmestyles.css">
-    <title>Home</title>
+    <title>Contact Me</title>
 </head>
 <body>
     <header>
@@ -13,44 +13,66 @@
             <img class="logo_img" src="images/m.jpg" alt="Logo">
         </a>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="samples.html">Samples</a>
-            <a href="contactme.html">Contact Me</a>
+            <a class="home_link" href="index.html">Home</a>
+            <a class="samples_link" href="samples.html">Samples</a>
+            <a class="contact_me_link" href="contactme.html">Contact Me</a>
         </nav>
     </header>
     <main>
-        <img class="first_img" src="images/contactme image1.jpg" alt="Computer Picture">
-        <form action="/my-handling-form-page" method="post" class="form">
-            <ul class="sub_form">
-                <li class="name">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" />
-                </li>
-                <li class="mail">
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="user_email" />
-                </li>
-                <li class="msg">
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </li>
-            </ul>
-            <li class="button">
-                <button type="submit">Send your message</button>
-        </li>
-        </form>
-        <img class="second_img" src="images/contactme image2.jpg" alt="Phone Picture">
+        <img class="first_img" src="images/contactme_image1.jpg" alt="Computer Picture">
+        <fieldset>
+            <legend>Feel free to ask me anything</legend>
+            <div class="container">
+                <form action="/action_page.php">
+                <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="email" name="email" placeholder="Your contact email...">
+                    </div>
+                    </div>
+                <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+                </div>
+                <br>
+                <div class="row">
+                <input type="submit" value="Submit">
+                </div>
+                </form>
+            </fieldset>
     </main>
     <footer>
-        <p><a href="site-plan.html">Site Plan</a></p>
+        <a class="site_plan_link" href="site-plan.html">Site Plan</a>
         <div class="social_media">
-            <a href="https:/facebook.com" target="_blank">
+            <a class="facebook_link" href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="Facebook Logo">
             </a>
-            <a href="https:/instagram.com" target="_blank">
+            <a class="instagram_link" href="https://instagram.com" target="_blank">
                 <img src="images/instagram.png" alt="Instagram Logo">
             </a>
-            <a href="https:/twitter.com" target="_blank">
+            <a class="twitter_link" href="https://twitter.com" target="_blank">
                 <img src="images/twitter.png" alt="Twitter Logo">
             </a>
         </div>
