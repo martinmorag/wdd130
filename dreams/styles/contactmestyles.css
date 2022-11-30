@@ -75,6 +75,7 @@ main {
 }
 .first_img {
   justify-self: end;
+  overflow: auto;
 }
 .first_bar {
   grid-column: 1/2;
