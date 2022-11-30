@@ -72,11 +72,15 @@ main {
 .first_img {
   grid-column: 2/3;
   grid-row: 1/2;
+}
+.first_img {
   justify-self: end;
 }
 .first_bar {
   grid-column: 1/2;
   grid-row: 1/2;
+}
+.first_bar {
   justify-self: start;
 }
 
@@ -91,6 +95,8 @@ main {
 .second_img {
   grid-column: 1/2;
   grid-row: 1/2;
+}
+.second_img {
   justify-self: start;
   height: 45%;
   margin-top: 3em;
@@ -98,6 +104,8 @@ main {
 .second_bar {
   grid-column: 2/3;
   grid-row: 1/2;
+}
+.second_bar {
   justify-self: end;
   margin-top: 3em;
 }
